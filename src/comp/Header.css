@@ -1,0 +1,90 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px;
+    margin-left: 700px; 
+  }
+  
+  .nav .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .nav .text-decoration-none {
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .nav .text-decoration-none:hover {
+    color: #6C63FF;
+  }
+  
+  .youtube-btn {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    padding: 5px 10px;
+  }
+  
+  .youtube-btn:hover {
+    background-color: #c82333;
+  }
+  
+  .navbar-light {
+    background-color: #f8f9fa;
+  }
+  
+  .offcanvas .side_nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .offcanvas .text-decoration-none {
+    color: #333;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+  }
+  
+  .offcanvas .text-decoration-none:hover {
+    color: #6C63FF;
+  }
+  
+  .offcanvas .btn-danger {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  
+  .offcanvas .btn-danger a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .offcanvas .btn-danger:hover a {
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .nav {
+      display: none;
+    }
+  
+    .hamburgur {
+      display: flex;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .hamburgur {
+      display: none;
+    }
+  }
+  
