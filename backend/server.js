@@ -1,7 +1,7 @@
-// URL to your backend server
+
 const API_URL = 'http://localhost:5000';
 
-// Function to handle user registration
+
 const registerUser = async (userData) => {
     try {
         const response = await fetch(`${API_URL}/api/register`, {
@@ -25,7 +25,6 @@ const registerUser = async (userData) => {
     }
 };
 
-// Function to handle user login (signin)
 const loginUser = async (loginData) => {
     try {
         const response = await fetch(`${API_URL}/api/signin`, {
@@ -43,8 +42,7 @@ const loginUser = async (loginData) => {
         const data = await response.json();
         console.log('User signed in:', data);
         alert('User signed in successfully!');
-        
-        // Store token in localStorage for later use
+    
         localStorage.setItem('token', data.token);
     } catch (error) {
         console.error('Error:', error);
@@ -52,7 +50,6 @@ const loginUser = async (loginData) => {
     }
 };
 
-// Function to send a message
 const sendMessage = async (email, message) => {
     const token = localStorage.getItem('token');
     

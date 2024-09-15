@@ -9,7 +9,7 @@ import Footer from "./comp/Footer";
 import CreateUser from './comp/CreateUser';
 import GetUser from './comp/GetUser';
 import StorePortfolio from './comp/StorePortfolio';
-import NotFound from './comp/NotFound'; // Import a NotFound component
+import NotFound from './comp/NotFound'; // 
 import { Routes, Route } from 'react-router-dom';
 import React from 'react';
 
